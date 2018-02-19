@@ -1,0 +1,34 @@
+﻿Build started 5/6/2015 3:19:08 PM.
+     1>Project "E:\Projects\GitRepos\raycasting\ray\ray.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ray.cpp
+         ray.cpp
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(61): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(111): warning C4101: 't4dc' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(110): warning C4101: 't4e' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(180): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(174): warning C4101: 'diff_factor' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(173): warning C4101: 'L' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(253): warning C4101: 't4dc' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(252): warning C4101: 't4e' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(248): warning C4101: 't4diror' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(321): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(373): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(388): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(312): warning C4101: 'scalar' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(316): warning C4101: 't4shadowl' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(313): warning C4101: 't4n' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(410): warning C4101: 'i' : unreferenced local variable
+     1>e:\projects\gitrepos\raycasting\ray\ray.cpp(422): warning C4700: uninitialized local variable 'surf' used
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\GitRepos\raycasting\Debug\ray.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\GitRepos\raycasting\Debug\ray.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\GitRepos\raycasting\Debug\ray.lib" /MACHINE:X86 /SAFESEH Debug\glm.obj
+         Debug\QuadFormula.obj
+         Debug\ray.obj
+         Debug\udray.obj
+         ray.vcxproj -> E:\Projects\GitRepos\raycasting\Debug\ray.exe
+     1>Done Building Project "E:\Projects\GitRepos\raycasting\ray\ray.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.44
